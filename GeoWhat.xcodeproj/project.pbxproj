@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0EFFB92BB02A1F00DDE3FC /* flags.json in Resources */ = {isa = PBXBuildFile; fileRef = FB0EFFB82BB02A1F00DDE3FC /* flags.json */; };
+		FBDFF0022BB0227A003021A6 /* GeoWhatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF0012BB0227A003021A6 /* GeoWhatApp.swift */; };
+		FBDFF0042BB0227A003021A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF0032BB0227A003021A6 /* ContentView.swift */; };
+		FBDFF0062BB0227B003021A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDFF0052BB0227B003021A6 /* Assets.xcassets */; };
+		FBDFF0092BB0227B003021A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDFF0082BB0227B003021A6 /* Preview Assets.xcassets */; };
+		FBDFF0132BB0227B003021A6 /* GeoWhatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF0122BB0227B003021A6 /* GeoWhatTests.swift */; };
+		FBDFF01D2BB0227B003021A6 /* GeoWhatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF01C2BB0227B003021A6 /* GeoWhatUITests.swift */; };
+		FBDFF01F2BB0227B003021A6 /* GeoWhatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF01E2BB0227B003021A6 /* GeoWhatUITestsLaunchTests.swift */; };
+		FBDFF02F2BB0238C003021A6 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF02E2BB0238C003021A6 /* Flag.swift */; };
+		FBDFF0312BB023A5003021A6 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF0302BB023A5003021A6 /* Flags.swift */; };
+		FBDFF0332BB023F6003021A6 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF0322BB023F6003021A6 /* BrowserView.swift */; };
+		FBDFF0352BB02406003021A6 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF0342BB02406003021A6 /* QuizView.swift */; };
+		FBDFF0372BB0241C003021A6 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF0362BB0241C003021A6 /* Styles.swift */; };
+		FBDFF03D2BB0261F003021A6 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF03C2BB0261F003021A6 /* RGB.swift */; };
+		FBDFF03F2BB026E0003021A6 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF03E2BB026E0003021A6 /* Color+.swift */; };
+		FBDFF0412BB0271C003021A6 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDFF0402BB0271C003021A6 /* View+.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBDFF00F2BB0227B003021A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBDFEFF62BB0227A003021A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBDFEFFD2BB0227A003021A6;
+			remoteInfo = GeoWhat;
+		};
+		FBDFF0192BB0227B003021A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBDFEFF62BB0227A003021A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBDFEFFD2BB0227A003021A6;
+			remoteInfo = GeoWhat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB0EFFB82BB02A1F00DDE3FC /* flags.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flags.json; sourceTree = "<group>"; };
+		FBDFEFFE2BB0227A003021A6 /* GeoWhat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoWhat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDFF0012BB0227A003021A6 /* GeoWhatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoWhatApp.swift; sourceTree = "<group>"; };
+		FBDFF0032BB0227A003021A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBDFF0052BB0227B003021A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBDFF0082BB0227B003021A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBDFF00E2BB0227B003021A6 /* GeoWhatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoWhatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDFF0122BB0227B003021A6 /* GeoWhatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoWhatTests.swift; sourceTree = "<group>"; };
+		FBDFF0182BB0227B003021A6 /* GeoWhatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoWhatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDFF01C2BB0227B003021A6 /* GeoWhatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoWhatUITests.swift; sourceTree = "<group>"; };
+		FBDFF01E2BB0227B003021A6 /* GeoWhatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoWhatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBDFF02E2BB0238C003021A6 /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
+		FBDFF0302BB023A5003021A6 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		FBDFF0322BB023F6003021A6 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		FBDFF0342BB02406003021A6 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		FBDFF0362BB0241C003021A6 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		FBDFF03C2BB0261F003021A6 /* RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
+		FBDFF03E2BB026E0003021A6 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		FBDFF0402BB0271C003021A6 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBDFEFFB2BB0227A003021A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFF00B2BB0227B003021A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFF0152BB0227B003021A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBDFEFF52BB0227A003021A6 = {
+			isa = PBXGroup;
+			children = (
+				FBDFF0002BB0227A003021A6 /* GeoWhat */,
+				FBDFF0112BB0227B003021A6 /* GeoWhatTests */,
+				FBDFF01B2BB0227B003021A6 /* GeoWhatUITests */,
+				FBDFEFFF2BB0227A003021A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDFEFFF2BB0227A003021A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFEFFE2BB0227A003021A6 /* GeoWhat.app */,
+				FBDFF00E2BB0227B003021A6 /* GeoWhatTests.xctest */,
+				FBDFF0182BB0227B003021A6 /* GeoWhatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBDFF0002BB0227A003021A6 /* GeoWhat */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFF02B2BB022AA003021A6 /* Resources */,
+				FBDFF02C2BB022B5003021A6 /* Models */,
+				FBDFF0012BB0227A003021A6 /* GeoWhatApp.swift */,
+				FBDFF0032BB0227A003021A6 /* ContentView.swift */,
+				FBDFF0322BB023F6003021A6 /* BrowserView.swift */,
+				FBDFF0342BB02406003021A6 /* QuizView.swift */,
+				FBDFF0362BB0241C003021A6 /* Styles.swift */,
+				FBDFF03B2BB025F2003021A6 /* Mirza_Old */,
+				FBDFF0052BB0227B003021A6 /* Assets.xcassets */,
+				FBDFF0072BB0227B003021A6 /* Preview Content */,
+			);
+			path = GeoWhat;
+			sourceTree = "<group>";
+		};
+		FBDFF0072BB0227B003021A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFF0082BB0227B003021A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBDFF0112BB0227B003021A6 /* GeoWhatTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFF0122BB0227B003021A6 /* GeoWhatTests.swift */,
+			);
+			path = GeoWhatTests;
+			sourceTree = "<group>";
+		};
+		FBDFF01B2BB0227B003021A6 /* GeoWhatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFF01C2BB0227B003021A6 /* GeoWhatUITests.swift */,
+				FBDFF01E2BB0227B003021A6 /* GeoWhatUITestsLaunchTests.swift */,
+			);
+			path = GeoWhatUITests;
+			sourceTree = "<group>";
+		};
+		FBDFF02B2BB022AA003021A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB0EFFB82BB02A1F00DDE3FC /* flags.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBDFF02C2BB022B5003021A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFF02E2BB0238C003021A6 /* Flag.swift */,
+				FBDFF0302BB023A5003021A6 /* Flags.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FBDFF03B2BB025F2003021A6 /* Mirza_Old */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFF03C2BB0261F003021A6 /* RGB.swift */,
+				FBDFF03E2BB026E0003021A6 /* Color+.swift */,
+				FBDFF0402BB0271C003021A6 /* View+.swift */,
+			);
+			path = Mirza_Old;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBDFEFFD2BB0227A003021A6 /* GeoWhat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDFF0222BB0227B003021A6 /* Build configuration list for PBXNativeTarget "GeoWhat" */;
+			buildPhases = (
+				FBDFEFFA2BB0227A003021A6 /* Sources */,
+				FBDFEFFB2BB0227A003021A6 /* Frameworks */,
+				FBDFEFFC2BB0227A003021A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoWhat;
+			packageProductDependencies = (
+			);
+			productName = GeoWhat;
+			productReference = FBDFEFFE2BB0227A003021A6 /* GeoWhat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBDFF00D2BB0227B003021A6 /* GeoWhatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDFF0252BB0227B003021A6 /* Build configuration list for PBXNativeTarget "GeoWhatTests" */;
+			buildPhases = (
+				FBDFF00A2BB0227B003021A6 /* Sources */,
+				FBDFF00B2BB0227B003021A6 /* Frameworks */,
+				FBDFF00C2BB0227B003021A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBDFF0102BB0227B003021A6 /* PBXTargetDependency */,
+			);
+			name = GeoWhatTests;
+			productName = GeoWhatTests;
+			productReference = FBDFF00E2BB0227B003021A6 /* GeoWhatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBDFF0172BB0227B003021A6 /* GeoWhatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDFF0282BB0227B003021A6 /* Build configuration list for PBXNativeTarget "GeoWhatUITests" */;
+			buildPhases = (
+				FBDFF0142BB0227B003021A6 /* Sources */,
+				FBDFF0152BB0227B003021A6 /* Frameworks */,
+				FBDFF0162BB0227B003021A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBDFF01A2BB0227B003021A6 /* PBXTargetDependency */,
+			);
+			name = GeoWhatUITests;
+			productName = GeoWhatUITests;
+			productReference = FBDFF0182BB0227B003021A6 /* GeoWhatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBDFEFF62BB0227A003021A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FBDFEFFD2BB0227A003021A6 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FBDFF00D2BB0227B003021A6 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FBDFEFFD2BB0227A003021A6;
+					};
+					FBDFF0172BB0227B003021A6 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FBDFEFFD2BB0227A003021A6;
+					};
+				};
+			};
+			buildConfigurationList = FBDFEFF92BB0227A003021A6 /* Build configuration list for PBXProject "GeoWhat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBDFEFF52BB0227A003021A6;
+			packageReferences = (
+			);
+			productRefGroup = FBDFEFFF2BB0227A003021A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBDFEFFD2BB0227A003021A6 /* GeoWhat */,
+				FBDFF00D2BB0227B003021A6 /* GeoWhatTests */,
+				FBDFF0172BB0227B003021A6 /* GeoWhatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBDFEFFC2BB0227A003021A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDFF0092BB0227B003021A6 /* Preview Assets.xcassets in Resources */,
+				FBDFF0062BB0227B003021A6 /* Assets.xcassets in Resources */,
+				FB0EFFB92BB02A1F00DDE3FC /* flags.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFF00C2BB0227B003021A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFF0162BB0227B003021A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBDFEFFA2BB0227A003021A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDFF0042BB0227A003021A6 /* ContentView.swift in Sources */,
+				FBDFF03F2BB026E0003021A6 /* Color+.swift in Sources */,
+				FBDFF0372BB0241C003021A6 /* Styles.swift in Sources */,
+				FBDFF02F2BB0238C003021A6 /* Flag.swift in Sources */,
+				FBDFF0022BB0227A003021A6 /* GeoWhatApp.swift in Sources */,
+				FBDFF0332BB023F6003021A6 /* BrowserView.swift in Sources */,
+				FBDFF0312BB023A5003021A6 /* Flags.swift in Sources */,
+				FBDFF0352BB02406003021A6 /* QuizView.swift in Sources */,
+				FBDFF0412BB0271C003021A6 /* View+.swift in Sources */,
+				FBDFF03D2BB0261F003021A6 /* RGB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFF00A2BB0227B003021A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDFF0132BB0227B003021A6 /* GeoWhatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFF0142BB0227B003021A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDFF01F2BB0227B003021A6 /* GeoWhatUITestsLaunchTests.swift in Sources */,
+				FBDFF01D2BB0227B003021A6 /* GeoWhatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBDFF0102BB0227B003021A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBDFEFFD2BB0227A003021A6 /* GeoWhat */;
+			targetProxy = FBDFF00F2BB0227B003021A6 /* PBXContainerItemProxy */;
+		};
+		FBDFF01A2BB0227B003021A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBDFEFFD2BB0227A003021A6 /* GeoWhat */;
+			targetProxy = FBDFF0192BB0227B003021A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FBDFF0202BB0227B003021A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBDFF0212BB0227B003021A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBDFF0232BB0227B003021A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoWhat/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR8VV2E4T7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikayzo.GeoWhat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBDFF0242BB0227B003021A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoWhat/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR8VV2E4T7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikayzo.GeoWhat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBDFF0262BB0227B003021A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR8VV2E4T7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikayzo.GeoWhatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoWhat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoWhat";
+			};
+			name = Debug;
+		};
+		FBDFF0272BB0227B003021A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR8VV2E4T7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikayzo.GeoWhatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoWhat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoWhat";
+			};
+			name = Release;
+		};
+		FBDFF0292BB0227B003021A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR8VV2E4T7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikayzo.GeoWhatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoWhat;
+			};
+			name = Debug;
+		};
+		FBDFF02A2BB0227B003021A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR8VV2E4T7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikayzo.GeoWhatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoWhat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBDFEFF92BB0227A003021A6 /* Build configuration list for PBXProject "GeoWhat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDFF0202BB0227B003021A6 /* Debug */,
+				FBDFF0212BB0227B003021A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDFF0222BB0227B003021A6 /* Build configuration list for PBXNativeTarget "GeoWhat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDFF0232BB0227B003021A6 /* Debug */,
+				FBDFF0242BB0227B003021A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDFF0252BB0227B003021A6 /* Build configuration list for PBXNativeTarget "GeoWhatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDFF0262BB0227B003021A6 /* Debug */,
+				FBDFF0272BB0227B003021A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDFF0282BB0227B003021A6 /* Build configuration list for PBXNativeTarget "GeoWhatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDFF0292BB0227B003021A6 /* Debug */,
+				FBDFF02A2BB0227B003021A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBDFEFF62BB0227A003021A6 /* Project object */;
+}
