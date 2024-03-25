@@ -43,7 +43,7 @@ struct BrowserView: View {
         .shadow(color: Color.black.opacity(0.08), radius: 60, x: 0.0, y: 16)
         .font(.title2)
         .padding()
-        .onChange(of: searchText) { newValue in
+        .onChange(of: searchText) { old, newValue in
             var index = 0
             for flag in flags {
                 if flag.name.localizedCaseInsensitiveContains(newValue) {
